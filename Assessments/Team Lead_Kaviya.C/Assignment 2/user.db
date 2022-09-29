@@ -1,0 +1,10 @@
+CREATE TABLE user(
+	userid varchar(255),
+	emailid varchar(255),
+	password varchar(255)
+);
+INSERT INTO user (userid, emailid, password)
+VALUES ('kaviya','kaviyac@gmail.com','kavi@02');
+
+INSERT INTO user (userid, emailid, password)
+VALUES ('harini','harinic@gmail.com','hari@22');
